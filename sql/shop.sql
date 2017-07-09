@@ -11,13 +11,13 @@ CREATE TABLE product_category(
 	name nvarchar(50) NOT NULL 
 );
 CREATE TABLE supplier(
-	supplier_id IDENTITY(1,1) PRIMARY KEY, 
+	supplier_id int IDENTITY(1,1) PRIMARY KEY, 
 	names nvarchar(50) NOT NULL , 
 	contact_person nvarchar(20) NOT NULL ,
 	contact_phone nvarchar(12) NOT NULL 
 );
 CREATE TABLE manufacturer(
-	manufacturer_id IDENTITY(1,1) PRIMARY KEY, 
+	manufacturer_id int IDENTITY(1,1) PRIMARY KEY, 
 	names nvarchar(50) NOT NULL , 
 	contact_person nvarchar(20) NOT NULL ,
 	contact_phone nvarchar(12) NOT NULL 
