@@ -1,0 +1,14 @@
+{
+  "name": "college wax",
+  "version": "0.0.0",
+  "description": "uploaded college materials ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.1.2"
+  }
+}
